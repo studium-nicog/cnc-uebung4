@@ -5,9 +5,9 @@
 
 In den Aufgaben 2-x verwenden wir Docker um Anwendungen zu containerisieren und zu nutzen. Hierzu können Sie Docker Desktop installieren: [https://www.docker.com/products/docker-desktop/](https://www.docker.com/products/docker-desktop/). Hier finden Sie eine Übersicht der verschiedenen Docker-Befehle: [https://www.docker.com/products/docker-desktop/](https://docs.docker.com/reference/cli/docker/)
 
-Jede der folgenden Aufgaben sollte in einem eigenen Projekt realisiert werden. Wie man Projekte in GitLab anlegt, wird in der Vorlesung noch erklärt.  
+Jede der folgenden Aufgaben sollte in einem eigenen Projekt realisiert werden.   
 
-Zunächst einmal können Sie das Repository zu Übung 2 über git klonen.  
+Zunächst einmal können Sie das Repository zu Übung 4 über git klonen.  
 
 In diesem Repository finden sie Dockerfiles, die nach folgendem Schema aufgebaut sind:
 
@@ -21,6 +21,11 @@ Dockerfile
    ```
 
 **Aufgabe 1 - Eine Python-App in der Google App Engine realisieren**
+
+Unter folgendem Link finden Sie ein Tutorial, um eine einfach Python-App in der Google App Engine zu realisieren: [https://codelabs.developers.google.com/codelabs/cloud-app-engine-python3#0](https://codelabs.developers.google.com/codelabs/cloud-app-engine-python3#0) 
+
+Anmerkung: Im Tutorial fehlt leider der Hinweis, dass die App Engine Administratorrechte wie untenstehend aktiviert sein müssen. Aktivieren Sie sie zunächst und folgen Sie dann den Anweisungen im Tutorial.
+
 
 Legen Sie ein neues Projekt in GitLab an (z.B. aufgabe1). Fügen Sie dem Projekt-Repository den Code aus der Datei aufgabe_1.yml hinzu und speichern Sie ihn unter dem Dateinamen .gitlab-ci.yml (siehe Hinweise oben).  
 
