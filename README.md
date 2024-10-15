@@ -3,7 +3,7 @@
 
 **Hinweise:**
 
-In den Aufgaben 2-x verwenden wir Docker um Anwendungen zu containerisieren und zu nutzen. Hierzu können Sie Docker Desktop installieren: [https://www.docker.com/products/docker-desktop/](https://www.docker.com/products/docker-desktop/). Hier finden Sie eine Übersicht der verschiedenen Docker-Befehle: [https://www.docker.com/products/docker-desktop/](https://docs.docker.com/reference/cli/docker/)
+In den Aufgaben 2-x dieser Übung verwenden wir Docker um Anwendungen zu containerisieren und zu nutzen. Hierzu können Sie Docker Desktop installieren: [https://www.docker.com/products/docker-desktop/](https://www.docker.com/products/docker-desktop/). Hier finden Sie eine Übersicht der verschiedenen Docker-Befehle: [https://www.docker.com/products/docker-desktop/](https://docs.docker.com/reference/cli/docker/)
 
 Jede der folgenden Aufgaben sollte in einem eigenen Projekt realisiert werden.   
 
@@ -26,7 +26,7 @@ Hinweis: Diese Übung ist freiwillig! Sie erfordert zumindest das Anlegen eines 
 
 Anmerkung: Wir nutzen hier ein Angebot der Google Cloud exemplarisch. Dies lässt sich bei anderen Cloud-Providern wie AWS, Azure, IBM etc. in ähnlicher Weise nutzen.
 
-Unter folgendem Link finden Sie ein Tutorial, um eine einfach Python-App in der Google App Engine zu realisieren: [https://codelabs.developers.google.com/codelabs/cloud-app-engine-python3#0](https://codelabs.developers.google.com/codelabs/cloud-app-engine-python3#0) 
+Unter folgendem Link finden Sie ein Tutorial, um eine einfache Python-App in der Google App Engine zu realisieren: [https://codelabs.developers.google.com/codelabs/cloud-app-engine-python3#0](https://codelabs.developers.google.com/codelabs/cloud-app-engine-python3#0) 
 
 Anmerkung: Im Tutorial fehlt leider der Hinweis, dass die App Engine Administratorrechte wie untenstehend aktiviert sein müssen. Aktivieren Sie sie zunächst und folgen Sie dann den Anweisungen im Tutorial.
 
@@ -35,7 +35,7 @@ Anmerkung: Im Tutorial fehlt leider der Hinweis, dass die App Engine Administrat
 **Wichtig:**
 Vergessen Sie nicht am Ende des Tutorials die Ressourcen wieder zu bereinigen, die Sie angelegt haben:
 ![ress_ber.png](ress_ber.png)
-![ress_del.png](ress_del.png)
+![del_ress.png](del_ress.png)
 
 
 
