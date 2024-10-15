@@ -22,10 +22,15 @@ Dockerfile
 
 **Aufgabe 1 - Eine Python-App in der Google App Engine realisieren**
 
+Hinweis: Diese Übung ist freiwillig! Sie erfordert zumindest das Anlegen eines kostenlosen Testaccounts unter https://cloud.google.com/. Selbst der kostenlose Test-Account erfordert jedoch die Angabe von z. B. Kreditkarteninformationen. Es liegt in ihrem eigenen Ermessen, ob Sie entsprechende Angaben machen möchten. Wichtig ist in jedem Fall, die angelegten Ressourcen wieder zu löschen (wie, das wird in dieser Anleitung erklärt). Die Verwendung der entsprechenden Dienste erfolgt jedoch unter eigener Verantwortung!
+
+Anmerkung: Wir nutzen hier ein Angebot der Google Cloud exemplarisch. Dies lässt sich bei anderen Cloud-Providern wie AWS, Azure, IBM etc. in ähnlicher Weise nutzen.
+
 Unter folgendem Link finden Sie ein Tutorial, um eine einfach Python-App in der Google App Engine zu realisieren: [https://codelabs.developers.google.com/codelabs/cloud-app-engine-python3#0](https://codelabs.developers.google.com/codelabs/cloud-app-engine-python3#0) 
 
 Anmerkung: Im Tutorial fehlt leider der Hinweis, dass die App Engine Administratorrechte wie untenstehend aktiviert sein müssen. Aktivieren Sie sie zunächst und folgen Sie dann den Anweisungen im Tutorial.
 
+![app_eng_admin.png](app_eng_admin.png)
 
 Legen Sie ein neues Projekt in GitLab an (z.B. aufgabe1). Fügen Sie dem Projekt-Repository den Code aus der Datei aufgabe_1.yml hinzu und speichern Sie ihn unter dem Dateinamen .gitlab-ci.yml (siehe Hinweise oben).  
 
