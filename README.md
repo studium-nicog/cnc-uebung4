@@ -32,19 +32,12 @@ Anmerkung: Im Tutorial fehlt leider der Hinweis, dass die App Engine Administrat
 
 ![app_eng_admin.png](app_eng_admin.png)
 
-Legen Sie ein neues Projekt in GitLab an (z.B. aufgabe1). Fügen Sie dem Projekt-Repository den Code aus der Datei aufgabe_1.yml hinzu und speichern Sie ihn unter dem Dateinamen .gitlab-ci.yml (siehe Hinweise oben).  
+**Wichtig:**
+Vergessen Sie nicht am Ende des Tutorials die Ressourcen wieder zu bereinigen, die Sie angelegt haben:
+![ress_ber.png](ress_ber.png)
+![ress_del.png](ress_del.png)
 
-Comitten Sie die Änderungen und starten Sie die Pipeline.  
 
-Schauen Sie sich die grafische Darstellung der Pipeline sowie ihren Konsolen-Output an.  
-
-Die Pipeline sollte so aussehen:  
-
-![aufgabe1pipeline.png](aufgabe1pipeline.png)
-
-a) Wie lange benötigt der Durchlauf dieser Pipeline theoretisch?  
-
-b) Wie lange benötigt der Durchlauf dieser Pipeline tatsächlich?
 
 **Aufgabe 2 - Eine Python-App mit Docker containerisieren**
 
