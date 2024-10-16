@@ -43,7 +43,51 @@ Vergessen Sie nicht am Ende des Tutorials die Ressourcen wieder zu bereinigen, d
 
 **Aufgabe 2 - Eine Python-App mit Docker containerisieren**
 
-Ändern Sie job3 so, dass dieser fehlschlägt und somit die Pipeline abgebrochen wird.
+Klonen Sie das Repository zu dieser Übung.  
+
+Erstellen Sie einen Ordner mit folgenden Dateien:
+
+- app.py
+- requirements.txt
+- Dockerfile (zur Aufgabe 2, siehe Umbenennung oben)
+
+Starten Sie Docker.
+
+Erzeugen Sie ein Docker-Image:
+
+   ```bash
+docker build -t wikisearch .
+   ```
+
+Starten Sie den Container:
+   ```bash
+docker run -p 8888:80 wikisearch
+   ```
+Rufen Sie in ihrem Browser folgende Adresse auf:
+   ```bash
+http://localhost:8888?wiki=Nürnberg
+   ```
+Sie sollten nun eine kurze Zusammenfassung zur Stadt Nürnberg sehen.  
+
+Probieren Sie das auch mit anderen Städtenamen aus.  
+
+Prüfen Sie im Docker-Desktop-Dashboard ob der Container läuft.
+
+Prüfen Sie über die Kommandozeile, ob der Container läuft:
+
+   ```bash
+docker ps -a
+
+   ```
+Quizfrage: Wie vergibt Docker die Default-Namen für seine Container?
+
+Stoppen Sie den Container über das Dashboard oder über die Kommandozeile mit:
+   ```bash
+docker stop [container_name]
+
+   ```
+Finden Sie heraus, wie man einem Container einen selbstgewählten Namen geben kann und starten Sie ihn noch einmal mit einem selbst gewählten Namen.
+
 
 **Aufgabe 3 - Deployment-Pipeline als Directed Acyclic Graph (DAG)**
 
