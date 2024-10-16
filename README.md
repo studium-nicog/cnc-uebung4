@@ -111,17 +111,9 @@ docker run hello-world-java
    ```
 Prüfen Sie ob der Container läuft. Was ist der Unterschied zu Aufgabe 2?
 
-**Aufgabe 4 - Artifacts**
+**Aufgabe 4 - Eine eigene App mit Docker containerisieren und Ausführen**
 
-Artefakte sind in Deployment-Pipelines Job-Erzeugnisse, die entlang einer Stage-Sequenz weitergereicht werden sollen. Zum Beispiel kann dies bei einem Java-Programm zunächst eine .class Datei sein, die nach einem Build-Job an einen Test-Job weitergereicht wird und zum Ende der Pipeline als .jar Datei ausgegeben werden soll. Diese Artefakte müssen explizit in der Konfigurationsdatei der Pipeline definiert werden.  
-
-Legen Sie zunächst ein neues Projekt/Repository für diese Aufgabe an. Fügen Sie dem Repository den Code aus der Datei aufgabe_4.yml als .gitlab-ci.yml Datei hinzu (siehe Hinweise oben).
-
-a) Führen Sie die Pipeline aus und sehen Sie danach unter "Artifacts" nach, welche Dateien die Pipeline erzeugt hat.  
-
-b) Warum wird für job2 keine Datei angelegt?
-
-c) Ändern Sie die Konfigurationsdatei so, dass auch für job2 die entsprechende Datei erzeugt wird.
+Schreiben Sie ein Programm ihrer Wahl (und ein zugehöriges Dockerfile), dass Sie containerisieren und ausführen.
 
 **Aufgabe 5 - Branches und Umgebungsvariablen**
 
