@@ -111,7 +111,7 @@ docker run hello-world-java
    ```
 Prüfen Sie ob der Container läuft. Was ist der Unterschied zu Aufgabe 2?
 
-**Aufgabe 4 - Eine eigene App mit Docker containerisieren und Ausführen**
+**Aufgabe 4 - Eine eigene App mit Docker containerisieren und ausführen**
 
 Schreiben Sie ein Programm ihrer Wahl (und ein zugehöriges Dockerfile), dass Sie containerisieren und ausführen.
 
