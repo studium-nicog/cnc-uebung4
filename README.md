@@ -93,7 +93,7 @@ Stoppen Sie den Container wie oben angegeben.
 
 **Aufgabe 3 - Eine Java-App mit Docker containerisieren**
 
-Stellen  Sie sicher, dass Sie ein Java Development Kit installiert haben [https://www.oracle.com/de/java/technologies/downloads/].
+Stellen  Sie sicher, dass Sie ein Java Development Kit (JDK) installiert haben [https://www.oracle.com/de/java/technologies/downloads/].
 
 Erstellen Sie einen Ordner mit folgenden Dateien:
 
