@@ -86,7 +86,9 @@ Stoppen Sie den Container über das Dashboard oder über die Kommandozeile mit:
 docker stop [container_name]
 
    ```
-Finden Sie heraus, wie man einem Container einen selbstgewählten Namen geben kann und starten Sie ihn noch einmal mit einem selbst gewählten Namen.
+Finden Sie heraus, wie man einem Container einen selbstgewählten Namen geben kann und starten Sie ihn noch einmal mit einem selbst gewählten Namen.  
+
+Stoppen Sie den Container wie oben angegeben.
 
 
 **Aufgabe 3 - Deployment-Pipeline als Directed Acyclic Graph (DAG)**
