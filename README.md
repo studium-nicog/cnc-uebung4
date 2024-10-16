@@ -91,13 +91,25 @@ Finden Sie heraus, wie man einem Container einen selbstgewählten Namen geben ka
 Stoppen Sie den Container wie oben angegeben.
 
 
-**Aufgabe 3 - Deployment-Pipeline als Directed Acyclic Graph (DAG)**
+**Aufgabe 3 - Eine Java-App mit Docker containerisieren**
 
-Ändern Sie die Pipeline aus Aufgabe 1 so, dass job3 bereits dann starten kann, wenn job1 beendet wurde (unabhängig von job2).
+Stellen  Sie sicher, dass Sie ein Java Development Kit installiert haben [https://www.oracle.com/de/java/technologies/downloads/].
 
-a) Wie lange benötigt der Durchlauf dieser Pipeline theoretisch?  
+Erstellen Sie einen Ordner mit folgenden Dateien:
 
-b) Wie lange benötigt der Durchlauf dieser Pipeline tatsächlich?
+- HelloWorld.java
+- Dockerfile (zur Aufgabe 3, siehe Umbenennung oben)
+
+Erzeugen Sie ein Docker-Image:
+   ```bash
+docker build -t hello-world-java .
+   ```
+Starten Sie den Container mit:
+   ```bash
+docker run hello-world-java
+
+   ```
+Prüfen Sie ob der Container läuft. Was ist der Unterschied zu Aufgabe 2?
 
 **Aufgabe 4 - Artifacts**
 
