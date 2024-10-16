@@ -115,7 +115,39 @@ Prüfen Sie ob der Container läuft. Was ist der Unterschied zu Aufgabe 2?
 
 Schreiben Sie ein Programm ihrer Wahl (und ein zugehöriges Dockerfile), dass Sie containerisieren und ausführen.
 
-**Aufgabe 5 - Branches und Umgebungsvariablen**
+**Aufgabe 5 - Den nginx Server als Docker Image nutzen**
+
+Legen Sie sich einen Account auf [Docker Hub](https://hub.docker.com/) an.  
+
+Ziehen Sie sich das Image des nginx-Webservers:
+   ```bash
+docker pull nginx
+   ```
+Starten Sie den Webserver mit:
+   ```bash
+docker run --name some-nginx -d -p 8080:80 nginx
+   ```
+Öffnen Sie ihren Browser. Unter folgender Adresse sollten Sie die Startseite des Webservers sehen:
+   ```bash
+http://localhost:8080
+   ```
+Stoppen Sie den Container.  
+
+Folgendermaßen können Sie sich die vorhandenen Docker-Images mit ihrer Zugehörigen ID anzeigen lassen:
+   ```bash
+docker images
+   ```
+Löschen Sie das Image des nginx-Servers wieder mit:
+   ```bash
+docker rmi [Image-ID]
+   ```
+bzw. mit
+   ```bash
+docker rmi -f [Image-ID]
+   ```
+
+
+
 
 GitLab hat eine ganze Reihe von [Umgebungsvariablen](https://docs.gitlab.com/ee/ci/variables/predefined_variables.html) um die Entwicklung in verschiedenen Branches zu steuern. So kann man z. B. steuern, dass ein Build auf dem Master-Branch in die Produktionsumgebung deployt wird, ein Build auf dem Release-Branch in die Staging-Umgebung und alle anderen Branches nur in die Test-Umgebung.
 
