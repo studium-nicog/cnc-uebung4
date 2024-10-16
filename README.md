@@ -113,9 +113,10 @@ Prüfen Sie ob der Container läuft. Was ist der Unterschied zu Aufgabe 2?
 
 **Aufgabe 4 - Eine eigene App mit Docker containerisieren und ausführen**
 
-Schreiben Sie ein Programm ihrer Wahl (und ein zugehöriges Dockerfile), dass Sie containerisieren und ausführen.
+Schreiben Sie ein Programm ihrer Wahl (und ein zugehöriges Dockerfile), dass Sie containerisieren und ausführen.  
 
-**Aufgabe 5 - Den nginx Server als Docker Image nutzen**
+
+**Aufgabe 5 - Den Nginx-Webserver als Docker Image nutzen**
 
 Legen Sie sich einen Account auf [Docker Hub](https://hub.docker.com/) an.  
 
@@ -145,59 +146,4 @@ bzw. mit
    ```bash
 docker rmi -f [Image-ID]
    ```
-
-
-
-
-GitLab hat eine ganze Reihe von [Umgebungsvariablen](https://docs.gitlab.com/ee/ci/variables/predefined_variables.html) um die Entwicklung in verschiedenen Branches zu steuern. So kann man z. B. steuern, dass ein Build auf dem Master-Branch in die Produktionsumgebung deployt wird, ein Build auf dem Release-Branch in die Staging-Umgebung und alle anderen Branches nur in die Test-Umgebung.
-
-Legen Sie zunächst ein neues Projekt/Repository für diese Aufgabe an. Fügen Sie dem Repository den Code aus der Datei aufgabe_5.yml als .gitlab-ci.yml Datei hinzu (siehe Hinweise oben).
-
-a) Legen Sie folgende Branches in ihrem Projekt an:  
-
-- feature  
-
-- master  
-
-- release
-
-b) Schauen Sie sich die Konfigurationsdatei an. Welche Jobs werden auf welchem Branch ausgeführt?
-
-c) Führen Sie die Pipeline in den unterschiedlichen Branches aus und überprüfen Sie damit ihr Ergebnis aus Aufgabe b) 
-
-d) Ändern Sie die Pipeline so, dass job1 nur im feature Branch ausgeführt wird.
-
-**Aufgabe 6 - (Java-)Programmcode kompilieren und ausführen in einer Pipeline**
-
-Legen Sie zunächst ein neues Projekt/Repository für diese Aufgabe an.   
-- Fügen Sie dem Repository den Code aus der Datei aufgabe_6.yml als .gitlab-ci.yml Datei hinzu (siehe Hinweise oben).  
-- Fügen Sie dem Repository die Datei HelloWorldBug.java hinzu
-
-a) Wie werden Java-Programme kompiliert und ausgeführt?  
-b) Wo finden Sie diese Schritte in der Konfigurationsdatei zu dieser Deployment-Pipeline?  
-c) Führen Sie die Pipeline aus. Was passiert? Wo ist der Fehler?  
-d) Korrigieren Sie den Fehler und starten Sie die Pipeline erneut. Beide Stages sollten nun erfolgreich passiert werden.  
-e) In welchem Fall würde die build-Stage erfolgreich passiert werden, aber die Test-Stage abbrechen? Passen Sie den Quellcode entsprechend an.  
-
-Hinweis: Achten Sie darauf, dass die JDK-Version des GitLab-Servers mit der JDK-Version in der Konfigurationsdatei übereinstimmt.
-
-**Aufgabe 7 - Dependencies in Deployment-Pipelines**
-
-Legen Sie zunächst ein neues Projekt/Repository für diese Aufgabe an.   
-- Fügen Sie dem Repository den Code aus der Datei aufgabe_7.yml als .gitlab-ci.yml Datei hinzu (siehe Hinweise oben).  
-- Fügen Sie dem Repository die Dateien Film.java und TestFilm.java hinzu.
-
-a) Welche Abhängigkeiten bestehen zwischen diesen beiden Java-Klassen?
-b) Führen Sie die Pipeline aus und prüfen Sie, ob sie fehlerfrei durchläuft.
-
-**Aufgabe 8 - Software-Tests in Deployment-Pipelines: Ein Beispiel mit JUnit und Hamcrest**
-
-Legen Sie zunächst ein neues Projekt/Repository für diese Aufgabe an.   
-- Fügen Sie dem Repository den Code aus der Datei aufgabe_8.yml als .gitlab-ci.yml Datei hinzu (siehe Hinweise oben).  
-- Fügen Sie dem Repository die Dateien FactorialCalculator.java und FactorialCalculatorTest.java hinzu
-- Fügen Sie dem Repository die Datei junit-4.12.jar hinzu (Infos zu [JUnit](https://junit.org/junit5/))
-- Fügen Sie dem Repository die Datei hamcrest-core-1.3.jar hinzu (Infos zu [Hamcrest](https://hamcrest.org/))
-
-a) Erklären Sie, was hier getestet wird.  
-b) Sehen Sie sich die Tests und das Programm an. Was würden Sie als Ausgabe bzw. Test-Ergebnis erwarten?  
-c) Testen Sie das Programm, indem Sie die Pipeline ausführen und vergleichen Sie die Ergebnisse mit ihren Einschätzungen aus Aufgabe b).  
+ 
