@@ -134,7 +134,7 @@ http://localhost:8080
    ```
 Stoppen Sie den Container.  
 
-Folgendermaßen können Sie sich die vorhandenen Docker-Images mit ihrer Zugehörigen ID anzeigen lassen:
+Folgendermaßen können Sie sich die vorhandenen Docker-Images mit ihrer zugehörigen ID anzeigen lassen:
    ```bash
 docker images
    ```
