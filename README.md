@@ -149,7 +149,7 @@ docker rmi -f [Image-ID]
 
 **Aufgabe 6 - Ein eigenes Docker-Image auf Docker Hub pushen und pullen**
 
-Erstellen Sie auf Docker Hub ein Repository, auf das Sie das Image pushen können:
+Erstellen Sie auf Docker Hub ein Repository, auf das Sie das Image pushen können:  
 ![dockerhub_repo.png](dockerhub_repo.png)
 
 Öffnen Sie ein Terminal und lassen Sie sich ggf. ihre lokal vorhandenen Docker-Images anzeigen. Das Image, das sie pushen möchten, müssen sie zunächst wie im folgenden Beispiel taggen:
