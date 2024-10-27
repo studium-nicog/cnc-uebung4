@@ -5,7 +5,11 @@
 
 In den Aufgaben 2 bis 6 dieser Übung verwenden wir Docker um Anwendungen zu containerisieren und zu nutzen. Hierzu können Sie Docker Desktop installieren: [https://www.docker.com/products/docker-desktop/](https://www.docker.com/products/docker-desktop/). Hier finden Sie eine Übersicht der verschiedenen Docker-Befehle: [https://docs.docker.com/reference/cli/docker/](https://docs.docker.com/reference/cli/docker/)  
 
+![docker_dashboard.png](docker_dashboard.png)
+
 Anmerkung: Starten Sie Docker einmal und gehen Sie in die Einstellungen. Hier können Sie schon mal den Haken bei "Enable Kubernetes" setzen (das brauchen wir zwar jetzt noch nicht, aber zu einem späteren Zeitpunkt).
+
+![enable_k8s.png](enable_k8s.png)
 
 Jede der folgenden Aufgaben sollte in einem eigenen Projekt realisiert werden.   
 
