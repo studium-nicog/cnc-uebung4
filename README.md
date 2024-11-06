@@ -34,7 +34,7 @@ Anmerkung: Wir nutzen hier ein Angebot der Google Cloud exemplarisch. Dies läss
 
 Unter folgendem Link finden Sie ein Tutorial, um eine einfache Python-App in der Google App Engine zu realisieren: [https://codelabs.developers.google.com/codelabs/cloud-app-engine-python3#0](https://codelabs.developers.google.com/codelabs/cloud-app-engine-python3#0) 
 
-Anmerkung: Im Tutorial fehlt leider der Hinweis, dass die App Engine Administratorrechte wie untenstehend aktiviert sein müssen. Aktivieren Sie sie zunächst und folgen Sie dann den Anweisungen im Tutorial.
+Anmerkung: Evtl. müssen Sie für die App Engine zunächst Administratorrechte wie untenstehend aktivieren. 
 
 ![app_eng_admin.png](app_eng_admin.png)
 
