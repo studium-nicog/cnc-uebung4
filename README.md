@@ -119,7 +119,7 @@ Prüfen Sie ob der Container läuft. Was ist der Unterschied zu Aufgabe 2?
 
 Schreiben Sie ein Programm ihrer Wahl (und ein zugehöriges Dockerfile), das Sie containerisieren und ausführen.  
 
-! Senden Sie ihren Quellcode, das Dockerfile und ggf. weitere benötigte Dateien und Hinweise per E-Mail an ihren Dozenten !
+--> Senden Sie ihren Quellcode, das Dockerfile und ggf. weitere benötigte Dateien und Hinweise per E-Mail an ihren Dozenten
 
 
 **Aufgabe 5 - Den Nginx-Webserver als Docker Image nutzen**
